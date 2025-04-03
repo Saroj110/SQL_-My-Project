@@ -50,7 +50,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 sql
 
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE sql_project_1;
 
 
 
@@ -106,7 +106,7 @@ SELECT COUNT(*) FROM retail_sale;
 
 SELECT COUNT(DISTINCT cutomer_id) FROM retail_sale;
 
-SELECT DISTINCT category FROM retail_sales;
+SELECT DISTINCT category FROM retail_sale;
 
 
 
@@ -166,7 +166,7 @@ SELECT
 
   *
 
-FROM retail_sales
+FROM retail_sale
 
 WHERE 
 
